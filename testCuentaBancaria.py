@@ -1,9 +1,8 @@
 #Fragmento de Sistema LK-ERP (modulo web bancario)
 import unittest
 from CuentaBancaria import cuentaBancaria
-#from Clientes import clientes
 from tipoCuentas import tipoCuenta
-#from TipoClientes import tipoClientes
+
 
 class TestCuentaBancaria(unittest.TestCase):
 	#Metodo que se ejecuta al inicio de cada caso
