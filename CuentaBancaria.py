@@ -9,7 +9,7 @@ class cuentaBancaria():
 
 	def depositar(self, aMount):
 		self.movimientos += 1
-		self.saldo = self.saldo + aMount
+		self.saldo = self.saldo - aMount
 		
 	def retirar(self, aMount):
 		#Condiciono a que tenga saldo
