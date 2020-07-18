@@ -1,6 +1,7 @@
 #Autor: Felipe Morales
 from tipoCuentas import tipoCuenta
 class cuentaBancaria():
+	#Tupla para registro de ultima operacion (en caso de error)
 	ultimo_error = (0,'')
 	saldo = 0
 	movimientos = 0
