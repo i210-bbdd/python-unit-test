@@ -1,3 +1,4 @@
+#Autor: Felipe Morales
 class tipoCuenta():
 
 	def __init__(self, tipo, nombre):
