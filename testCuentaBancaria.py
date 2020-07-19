@@ -13,7 +13,7 @@ class TestCuentaBancaria(unittest.TestCase):
         self.cb1 = cuentaBancaria(0)
         self.cb2 = cuentaBancaria(0)
 
-    # Metodo que se ejecuta al finalizar cada caso para liberar recursos	
+    # Metodo que se ejecuta al finalizar cada caso para liberar recursos
     def tearDown(self):
         pass
 
@@ -36,7 +36,7 @@ class TestCuentaBancaria(unittest.TestCase):
         self.cb1.retirar(100)
         self.cb1.depositar(100)
         self.cb1.retirar(100)
-        self.assertEqual(self.cb1.getSaldo(), 0, "Debe mostrar 0")		
+        self.assertEqual(self.cb1.getSaldo(), 0, "Debe mostrar 0")
 
     def test_saldo_tras_movimientos_entre_cuentas(self):
         self.cb1.depositar(100)
@@ -44,8 +44,9 @@ class TestCuentaBancaria(unittest.TestCase):
         self.cb2.depositar(20)
         self.cb2.retirar(20)
         self.cb1.retirar(80)
-        self.assertEqual(self.cb1.getSaldo()-self.cb2.getSaldo(), 0, "Debe mostrar 0")
-        cant=self.cb1.getCantMovimientos()+self.cb2.getCantMovimientos()
+        cant = self.cb1.getSaldo() - self.cb2.getSaldo()
+        self.assertEqual(cant, 0, "Debe mostrar 0")
+        cant = self.cb1.getCantMovimientos()+self.cb2.getCantMovimientos()
         self.assertEqual(cant, 7, "Debe mostrar 7 movimientos en total")
 
 
