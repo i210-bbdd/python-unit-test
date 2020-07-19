@@ -27,12 +27,12 @@ class TestCuentaBancaria(unittest.TestCase):
         self.cb1.depositar(100)
         self.assertEqual(self.cb1.getSaldo(), 100, "Debe mostrar 100")
         self.assertEqual(self.cb1.getCantMovimientos(), 2, "Debe mostrar 2")
-        self.assertEqual(self.cb1.ultimo_error[0], 0, "CA. Código de error 0")
+        self.assertEqual(self.cb1.ultimo_error[0], 0, "CA. Código Error 0")
 
     def test_saldo_menos_100(self):
         self.cb1.retirar(100)
         self.assertEqual(self.cb1.getSaldo(), -100, "Debe mostrar 0")
-        self.assertEqual(self.cb1.ultimo_error[0], 0, "CA. Código de error 0")
+        self.assertEqual(self.cb1.ultimo_error[0], 0, "CA. Código Error 0")
 
     def test_saldo_varios_movimiento(self):
         self.cb1.retirar(100)
@@ -41,7 +41,7 @@ class TestCuentaBancaria(unittest.TestCase):
         self.cb1.depositar(100)
         self.cb1.retirar(100)
         self.assertEqual(self.cb1.getSaldo(), -100, "Debe mostrar 0")
-        self.assertEqual(self.cb1.ultimo_error[0], 0, "CA. Código de error 0")
+        self.assertEqual(self.cb1.ultimo_error[0], 0, "CA. Código Error 0")
 
     def test_saldo_tras_movimientos_entre_cuentas(self):
         self.cb1.depositar(100)
