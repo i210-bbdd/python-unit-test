@@ -1,4 +1,4 @@
-# Fragmento de Sistema LK-ERP (modulo web bancario)
+# Fragmento de Sistema ERP (modulo web bancario)
 import unittest
 from CuentaBancaria import cuentaBancaria
 # from Clientes import clientes
