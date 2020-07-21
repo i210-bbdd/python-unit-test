@@ -37,4 +37,10 @@ class cuentaBancaria():
         return self.nro_cuenta
 
     def getTipoCuenta(self):
-        return self.tipo_cuenta     
+        return self.tipo_cuenta
+
+    def setNroCuenta(self, nro_cuenta):
+        self.nro_cuenta = nro_cuenta
+
+    def setTipoCuenta(self, tipo_cuenta):
+        self.tipo_cuenta = tipo_cuenta
