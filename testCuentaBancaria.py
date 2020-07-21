@@ -49,6 +49,9 @@ class TestCuentaBancaria(unittest.TestCase):
         cant = self.cb1.getCantMovimientos()+self.cb2.getCantMovimientos()
         self.assertEqual(cant, 7, "Debe mostrar 7 movimientos en total")
 
+    def test_nro_y_tipo_cuenta(self):
+        self.assertEqual(self.cb1.getNroCuenta(), '1234', "Debe mostrar 1234")
+        self.assertEqual(self.cb1.getTipoCuenta(), 'CC', "Debe mostrar CA")
 
 if __name__ == '__main__':
     unittest.main(verbosity=0)

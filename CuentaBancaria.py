@@ -32,3 +32,9 @@ class cuentaBancaria():
 
     def getCantConsultasSaldo(self):
         return self.consultas_saldo
+
+    def getNroCuenta(self):
+        return self.nro_cuenta
+
+    def getTipoCuenta(self):
+        return self.tipo_cuenta     
