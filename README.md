@@ -1,9 +1,9 @@
 # python-unit-test
 Ejercicio básico de pruebas unitarias
 
-*Librería utilizada:* unittest
+**Librería utilizada:** unittest
 
-Clases involucradas:
+**Clases involucradas:**
  cuentaBancaria
  tipoCuentas
 
