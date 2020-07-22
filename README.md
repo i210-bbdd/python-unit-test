@@ -1,5 +1,5 @@
 # python-unit-test
-Ejercicio básico de pruebas unitarias
+Ejercicio básico de pruebas unitarias en Python 3.
 
 **Librería utilizada:** unittest
 
