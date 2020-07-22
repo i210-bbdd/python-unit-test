@@ -1,17 +1,13 @@
 # Clase CuentaBancaria
 class cuentaBancaria():
-    # Tipo de cuenta: CA: Caja de Ahorro,CC: Cuenta Corriente, CS:Cuenta Sueldo
-    tipo_cuenta = ''
-    nro_cuenta = ''
-    saldo = 0
-    movimientos = 0
-    consultas_saldo = 0
 
     def __init__(self, tipo_cuenta, nro_cuenta, saldo):
-        self.movimientos += 1
         self.saldo = saldo
+        # Tipo de cuenta: CA: Caja de Ahorro,CC: Cuenta Corriente, CS:Cuenta Sueldo
         self.tipo_cuenta = tipo_cuenta
         self.nro_cuenta = nro_cuenta
+        self.movimientos = 1
+        self.consultas_saldo = 0
 
     def depositar(self, aMount):
         self.movimientos += 1
@@ -23,24 +19,24 @@ class cuentaBancaria():
             self.movimientos += 1
             self.saldo = self.saldo - aMount
 
-    def getSaldo(self):
+    def get_Saldo(self):
         self.consultas_saldo += 1
         return self.saldo
 
-    def getCantMovimientos(self):
+    def get_CantMovimientos(self):
         return self.movimientos
 
-    def getCantConsultasSaldo(self):
+    def get_CantConsultasSaldo(self):
         return self.consultas_saldo
 
-    def getNroCuenta(self):
+    def get_NroCuenta(self):
         return self.nro_cuenta
 
-    def getTipoCuenta(self):
+    def get_TipoCuenta(self):
         return self.tipo_cuenta
 
-    def setNroCuenta(self, nro_cuenta):
+    def set_NroCuenta(self, nro_cuenta):
         self.nro_cuenta = nro_cuenta
 
-    def setTipoCuenta(self, tipo_cuenta):
+    def set_TipoCuenta(self, tipo_cuenta):
         self.tipo_cuenta = tipo_cuenta
