@@ -3,7 +3,7 @@ class cuentaBancaria():
 
     def __init__(self, tipo_cuenta, nro_cuenta, saldo):
         self.saldo = saldo
-        # Tipo de cuenta: CA: Caja de Ahorro,CC: Cuenta Corriente, CS:Cuenta Sueldo
+        # Tipo de cuenta: CA: Caja de Ahorro,CC: Cta Corriente, CS:Cta Sueldo
         self.tipo_cuenta = tipo_cuenta
         self.nro_cuenta = nro_cuenta
         self.movimientos = 1

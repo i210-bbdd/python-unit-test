@@ -17,5 +17,5 @@ class Persona:
     def get_fecha_nacimiento(self):
         return self.fecha_nacimiento
 
-    def __str__():
-        return "nombre: " + nombre + " , " + "apellido: " + apellido + " , " + "id_personal: " + id_personal + " , " + "fecha_nacimiento: " + fecha_nacimiento
+    def __str__(self):
+        return "nombre: " + self.nombre + " , " + "apellido: " + self.apellido
