@@ -1,3 +1,6 @@
+from datetime import date
+
+
 class Persona:
     def __init__(self, nombre, apellido, id_personal, fecha_nacimiento):
         self.nombre = nombre
@@ -16,6 +19,9 @@ class Persona:
 
     def get_fecha_nacimiento(self):
         return self.fecha_nacimiento
+
+    def get_edad(self):
+        return (date.today().year - self.fecha_nacimiento.year) 
 
     def __str__(self):
         return "nombre: " + self.nombre + " , " + "apellido: " + self.apellido
