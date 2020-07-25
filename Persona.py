@@ -22,6 +22,12 @@ class Persona:
     def get_fecha_nacimiento(self):
         return self.fecha_nacimiento
 
+    def get_telefono(self):
+        return self.telefono
+
+    def get_email(self):
+        return self.email
+
     def get_edad(self):
         return (date.today().year - self.fecha_nacimiento.year)
 

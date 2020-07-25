@@ -10,6 +10,7 @@ class TestPersona(unittest.TestCase):
     def setUp(self):
         self.juancito = Persona('Juancito', 'Gomez', '123',
                         datetime(2000, 11, 28))
+        self.juancito.set_telefono("1122334455")                
 
     # Metodo que se ejecuta al finalizar cada caso para liberar recursos
     def tearDown(self):
@@ -21,6 +22,7 @@ class TestPersona(unittest.TestCase):
         self.assertEqual(self.juancito.get_id_personal(), '123')
         self.assertEqual(self.juancito.get_fecha_nacimiento(),
                          datetime(2000, 11, 28))
+        self.assertEqual(self.juancito.get_telefono(), '1122334455')                 
 
     def test_edad_positiva(self):
         self.assertGreaterEqual(self.juancito.get_edad(), 0)
