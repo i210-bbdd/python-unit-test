@@ -22,7 +22,9 @@ class TestPersona(unittest.TestCase):
         self.assertEqual(self.juancito.get_id_personal(), '123')
         self.assertEqual(self.juancito.get_fecha_nacimiento(),
                          datetime(2000, 11, 28))
-        self.assertEqual(self.juancito.get_telefono(), '1122334455')                 
+        self.assertEqual(self.juancito.get_telefono(), '1122334455')
+        self.assertEqual(self.juancito.get_email(), '')
+                         
 
     def test_edad_positiva(self):
         self.assertGreaterEqual(self.juancito.get_edad(), 0)
