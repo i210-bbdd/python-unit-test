@@ -11,7 +11,7 @@ class TestCuentaBancaria(unittest.TestCase):
     # Metodo que se ejecuta al inicio de cada caso
     def setUp(self):
         self.cb1 = cuentaBancaria('CC', '1234', 0)
-        self.cb2 = cuentaBancaria('CA', '3456', 0)
+        self.cb2 = cuentaBancaria('CA', '3456', 1)
 
     # Metodo que se ejecuta al finalizar cada caso para liberar recursos
     def tearDown(self):
