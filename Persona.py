@@ -10,6 +10,7 @@ class Persona:
         self.fecha_nacimiento = fecha_nacimiento
         self.telefono = ""
         self.email = ""
+        self.sexo = ""
 
     def get_nombre(self):
         return self.nombre
@@ -37,6 +38,13 @@ class Persona:
 
     def set_email(self, email):
         self.email = email
+
+    def set_sexo(self, sexo):
+        self.sexo = sexo
+
+    def get_sexo(self):
+        return self.sexo
+    
 
     def __str__(self):
         return "nombre: " + self.nombre + " , " + "apellido: " + self.apellido
