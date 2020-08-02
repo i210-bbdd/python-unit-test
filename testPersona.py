@@ -1,3 +1,4 @@
+# Autor: Felipe Morales
 # unittest clase Persona
 import unittest
 from Persona import Persona
