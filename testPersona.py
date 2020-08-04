@@ -33,5 +33,6 @@ class TestPersona(unittest.TestCase):
     def test_sexo(self):
         self.assertEqual(self.juancito.get_sexo(), "M")
 
+
 if __name__ == '__main__':
     unittest.main(verbosity=0)
