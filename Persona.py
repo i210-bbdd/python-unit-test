@@ -46,4 +46,4 @@ class Persona:
         return self.sexo
 
     def __str__(self):
-        return "nombre: " + self.nombre + " , " + "apellido: " + self.apellido
+        return "Nombre: " + self.nombre + " , " + "Apellido: " + self.apellido
