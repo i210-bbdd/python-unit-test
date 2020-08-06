@@ -33,6 +33,9 @@ class TestPersona(unittest.TestCase):
     def test_sexo(self):
         self.assertEqual(self.juancito.get_sexo(), "M")
 
+    def test_altura(self):
+        self.assertLessEqual(self.juancito.get_altura(), 10)
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=0)
