@@ -5,6 +5,7 @@ from CuentaBancaria import cuentaBancaria
 # from TipoCuentas import tipoCuentas
 # from TipoClientes import tipoClientes
 
+
 class TestCuentaBancaria(unittest.TestCase):
 
     # Metodo que se ejecuta al inicio de cada caso

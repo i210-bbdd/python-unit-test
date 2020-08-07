@@ -8,6 +8,7 @@ class cuentaBancaria():
         self.nro_cuenta = nro_cuenta
         self.movimientos = 1
         self.consultas_saldo = 0
+        self.porc_comision = 0
 
     def depositar(self, aMount):
         self.movimientos += 1
@@ -40,3 +41,9 @@ class cuentaBancaria():
 
     def set_TipoCuenta(self, tipo_cuenta):
         self.tipo_cuenta = tipo_cuenta
+
+    def get_porc_comision(self):
+        return self.porc_comision
+
+    def set_porc_comision(self, comision):
+        self.porc_comision = comision
