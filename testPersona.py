@@ -39,5 +39,6 @@ class TestPersona(unittest.TestCase):
     def test_peso(self):
         self.assertLessEqual(self.juancito.get_peso(), 0)
 
+
 if __name__ == '__main__':
     unittest.main(verbosity=0)

@@ -59,6 +59,5 @@ class Persona:
     def get_peso(self):
         return self.peso
 
-
     def __str__(self):
         return "Nombre: " + self.nombre + " , " + "Apellido: " + self.apellido
