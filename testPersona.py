@@ -34,7 +34,7 @@ class TestPersona(unittest.TestCase):
         self.assertEqual(self.juancito.get_sexo(), "M")
 
     def test_altura(self):
-        self.assertLessEqual(self.juancito.get_altura(), 10)
+        self.assertLessEqual(self.juancito.get_altura(), 0)
 
 
 if __name__ == '__main__':
