@@ -9,6 +9,8 @@ Ejercicio básico de pruebas unitarias en Python 3.
 **Clases involucradas:**
  cuentaBancaria
  tipoCuentas
+ Persona
 
-**Test unitario:**
+**Testa unitarioa:**
  testCuentaBancaria.py
+ testPersonas.py
