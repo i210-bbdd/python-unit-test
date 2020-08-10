@@ -4,13 +4,17 @@
 # python-unit-test
 Ejercicio básico de pruebas unitarias en Python 3.
 
-**Librería utilizada:** unittest
+# Librería utilizada:
+  unittest
 
-**Clases involucradas:**
- cuentaBancaria
- tipoCuentas
- Persona
+# Clases involucradas
 
-**Testa unitarioa:**
- testCuentaBancaria.py
- testPersonas.py
+  cuentaBancaria
+  tipoCuentas
+  Persona
+
+
+# Testa unitarioa
+
+  testCuentaBancaria.py
+  testPersonas.py
