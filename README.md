@@ -14,7 +14,7 @@ Ejercicio básico de pruebas unitarias en Python 3.
   Persona
 
 
-# Testa unitarioa
+# Test unitario
 
   testCuentaBancaria.py
   testPersonas.py
