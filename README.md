@@ -5,7 +5,7 @@
   Ejercicio básico de pruebas unitarias en Python 3.
 
 # Librería utilizada:
-  unittest
+  unittest <https://docs.python.org/3/library/unittest.html>
 
 # Clases involucradas
   cuentaBancaria
