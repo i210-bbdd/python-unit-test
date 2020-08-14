@@ -16,4 +16,4 @@
 # Test unitario
 
   + testCuentaBancaria
-  + testPersonas
+  + testPersona
