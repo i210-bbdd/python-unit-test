@@ -21,7 +21,7 @@ class Persona:
         return self.apellido
 
     def get_id_personal(self):
-        return self.nombre
+        return self.id_personal
 
     def get_fecha_nacimiento(self):
         return self.fecha_nacimiento
