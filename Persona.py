@@ -4,6 +4,7 @@ from datetime import date
 
 class Persona:
     def __init__(self, nombre, apellido, id_personal, fecha_nacimiento):
+        'Método de inicialización'
         self.nombre = nombre
         self.apellido = apellido
         self.id_personal = id_personal
