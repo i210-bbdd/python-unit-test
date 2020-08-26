@@ -1,5 +1,6 @@
 # Clase CuentaBancaria
 class cuentaBancaria():
+    'Entidad que representa información de cuentas banciarias'
 
     def __init__(self, tipo_cuenta, nro_cuenta, saldo):
         self.saldo = saldo
