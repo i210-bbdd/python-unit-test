@@ -2,9 +2,9 @@
 
 # UnitTest en Python
 
- _A través de ejercicios básicos programados en Python 3, se pretende realizar pruebas unitarias._
- _Se incluye además uso de mecanismo de *Workflow de acciones* (Python application), para la creación de test unitarios a nivel de gestor de código fuente_
-_También incluye integración de operaciones de push con *Slack*!
+ _A través de ejercicios básicos programados en Python 3, se pretende realizar pruebas unitarias.
+ Se incluye además uso de mecanismo de *Workflow de acciones* (Python application), para la creación de test unitarios a nivel de gestor de código fuente
+ También incluye integración de operaciones de push con *Slack*!_
 
 ## Comenzando 🚀
 
