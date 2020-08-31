@@ -1,8 +1,10 @@
 ![python-unit-test-default](https://github.com/i210-bbdd/python-unit-test/workflows/python-unit-test-default/badge.svg?branch=master&event=push)
 
-# Título del Proyecto
+# UnitTest en Python
 
-_Acá va un párrafo que describa lo que es el proyecto_
+ _A través de ejercicios básicos programados en Python 3, se pretende realizar pruebas unitarias._
+ _Se incluye además uso de mecanismo de *Workflow de acciones* (Python application), para la creación de test unitarios a nivel de gestor de código fuente_
+_También incluye integración de operaciones de push con *Slack*!
 
 ## Comenzando 🚀
 
@@ -101,10 +103,7 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * etc.
 
 
-# python-unit-test
-  + Ejercicio básico de pruebas unitarias en Python 3, creado a los efectos de ser usado como ejemplo práctico.
-  + Se incluye además uso de mecanismo de *Workflow de acciones* (Python application), para la creación de test unitarios a nivel de gestor de código fuente
-  + También incluye integración de operaciones de push con *Slack*!
+ 
 
 # Librería utilizada:
   + unittest <https://docs.python.org/3/library/unittest.html>
