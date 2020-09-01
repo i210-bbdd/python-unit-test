@@ -103,8 +103,6 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * etc.
 
 
- 
-
 # Librería utilizada:
   + unittest <https://docs.python.org/3/library/unittest.html>
 
