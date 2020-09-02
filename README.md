@@ -18,7 +18,10 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-Da un ejemplo
+Python 3.4 o superior.
+
+unittest <https://docs.python.org/3/library/unittest.html>
+
 ```
 
 ### Instalación 🔧
@@ -103,8 +106,6 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * etc.
 
 
-# Librería utilizada:
-  + unittest <https://docs.python.org/3/library/unittest.html>
 
 # Clases involucradas
   + cuentaBancaria
