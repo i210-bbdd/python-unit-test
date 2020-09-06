@@ -10,7 +10,7 @@
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Mira **Despliegue** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
