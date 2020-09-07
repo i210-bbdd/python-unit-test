@@ -76,6 +76,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Contribuyendo 🖇️
 
+REDACTAR!!!
 Por favor lee el [CONTRIBUTING.md](https://gist.github.com/usuario/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 ## Wiki 📖
