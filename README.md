@@ -59,7 +59,7 @@ Da un ejemplo
 _Explica que verifican estas pruebas y por qué_
 
 ```
-Da un ejemplo
+Detallar
 ```
 
 ## Despliegue 📦
