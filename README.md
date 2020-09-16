@@ -15,7 +15,7 @@ Mira **Despliegue** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Que cosas se necesitan para instalar el software y como instalarlas_
 
 ```
 Python 3.4 o superior.
