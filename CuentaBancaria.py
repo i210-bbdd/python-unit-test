@@ -1,4 +1,6 @@
 # Clase CuentaBancaria
+# Autor: Felipe Morales
+
 class cuentaBancaria():
     'Entidad que representa información de cuentas banciarias'
 
