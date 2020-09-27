@@ -1,5 +1,6 @@
 # Autor: Felipe Morales
 # Fecha: 26/07/2020
+
 class tipoCuenta():
 
     def __init__(self, tipo, moneda, nombre, limite, max_operaciones):
