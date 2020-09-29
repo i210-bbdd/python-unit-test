@@ -1,4 +1,4 @@
-# Clase CuentaBancaria
+# Clase: CuentaBancaria
 # Autor: Felipe Morales
 
 class cuentaBancaria():
