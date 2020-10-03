@@ -18,7 +18,7 @@ Mira **Despliegue** para conocer como desplegar el proyecto.
 _Que cosas se necesitan para instalar el software y como instalarlas_
 
 ```
-Python 3.4 o superior.
+Python 3.5 o superior.
 
 * [unitest](https://docs.python.org/3/library/unittest.html) - Librera Python para uso de tests unitarios
 
