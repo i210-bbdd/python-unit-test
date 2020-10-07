@@ -20,7 +20,7 @@ _Que cosas se necesitan para instalar el software y como instalarlas_
 ```
 Python 3.5 o superior.
 
-* [unitest](https://docs.python.org/3/library/unittest.html) - Librera Python para uso de tests unitarios
+* [unitest](https://docs.python.org/3/library/unittest.html) - Librera Python para uso de tests unitarios.
 
 ```
 
