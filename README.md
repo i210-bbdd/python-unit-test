@@ -56,7 +56,7 @@ Da un ejemplo
 
 ### Y las pruebas de estilo de codificación ⌨️
 
-_Explica que verifican estas pruebas y por qué de sus resulatados_
+_Explica que verifican estas pruebas y el por qué de sus resulatados_
 
 ```
 Detallar
