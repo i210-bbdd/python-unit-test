@@ -1,5 +1,5 @@
 # Autor: Felipe Morales
-# Fecha: 10/10/2020
+# Fecha: 13/10/2020
 
 class tipoCuenta():
 
