@@ -19,8 +19,8 @@ class cuentaBancaria():
 
     def retirar(self, aMount):
         # Condiciono a que tenga saldo
-        if self.saldo>=aMount:
-            self.movimientos+=1
+        if self.saldo >= aMount:
+            self.movimientos += 1
             self.saldo = self.saldo - aMount
 
     def get_Saldo(self):
