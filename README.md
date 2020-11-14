@@ -104,7 +104,6 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * Comenta a otros sobre este proyecto 📢
 
 
-
 # Clases involucradas
   + cuentaBancaria
   + tipoCuenta
