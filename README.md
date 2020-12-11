@@ -1,7 +1,6 @@
 ![python-unit-test-default](https://github.com/i210-bbdd/python-unit-test/workflows/python-unit-test-default/badge.svg?branch=master&event=push)
 
 
-
 # UnitTest en Python
 
  _A través de ejercicios básicos programados en Python 3, se pretende realizar pruebas unitarias.
@@ -61,7 +60,7 @@ Da un ejemplo
 _Explica que verifican estas pruebas y el por qué de sus resulatados_
 
 ```
-Detallar ...
+Detallar cada caso y el estandar utilizado ...
 ```
 
 ## Despliegue 📦
