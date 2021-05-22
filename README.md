@@ -2,8 +2,6 @@
 
 # Verify! Información
 
-
-
  
 
 # UnitTest en Python!
