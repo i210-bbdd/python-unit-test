@@ -54,7 +54,7 @@ class TestCuentaBancaria(unittest.TestCase):
 
     def test_nro_y_tipo_cuenta(self):
         self.assertEqual(self.cb1.get_NroCuenta(), '1234', "Debe mostrar 1234")
-        self.assertEqual(self.cb1.get_TipoCuenta(), 'CC', "Debe mostrar CA")
+        self.assertEqual(self.cb1.get_TipoCuenta(), 'CC', "Debe mostrar CC")
 
 
 if __name__ == '__main__':
