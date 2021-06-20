@@ -1,4 +1,5 @@
 # Autor: Felipe Morales
+# Entidad: Persona
 
 from datetime import date
 
