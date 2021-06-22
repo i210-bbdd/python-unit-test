@@ -16,6 +16,7 @@ class Persona:
         self.sexo = ""
         self.altura = 0
         self.peso = 0
+        # TODO: Incluir metodos
         self.tag = ""
 
     def get_nombre(self):
