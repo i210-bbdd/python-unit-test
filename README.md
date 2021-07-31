@@ -109,14 +109,14 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * Comenta a otros sobre este proyecto 📢
 
 
-# Clases involucradas
+# Clases involucradas:
   + cuentaBancaria
   + tipoCuenta
   + Persona
 
 
 
-# Test unitario
+# Test unitario:
 
   + testCuentaBancaria
   + testPersona
