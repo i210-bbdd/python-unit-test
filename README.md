@@ -94,7 +94,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+_Menciona a aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Fulanito** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
 
